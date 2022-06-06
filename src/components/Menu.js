@@ -6,7 +6,7 @@ export default function Menu() {
     <div>
         <ul>
             <li>
-                <NavLink className={({isActive}) => isActive ? "active1" : "active4"} to="/Celsius">Calcular grados Celsius y Fahrenheit</NavLink>
+                <NavLink className={({isActive}) => isActive ? "active1" : "active4"} to="/Celsius">Calcular grados</NavLink>
             </li>
             <li>
                 <NavLink className={({isActive}) => isActive ? "active2" : "active4"} to="/Formulario">Formulario</NavLink>
